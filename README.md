@@ -2,6 +2,9 @@ Assemany AngularJS Reverse Geocode
 =======================
 This is a simple directive to handle reverse geocode using google maps.
 
+### Demo
+[Codepen](http://codepen.io/assemany/pen/JXPqBv)
+
 ### How to Installation
 
 Bower: `bower install assemany-angular-reverse-geocode`
@@ -12,7 +15,14 @@ After this, you should add 'AssemanyAngularReverseGeocode' as a dependency for y
 angular.module('myApplication', ['AssemanyAngularReverseGeocode']);
 ```
 
+** Important: You should also have the google maps api script on your page! **
+
 ### How to use
 ```html
-<reverse-geocode lat="14.14787" lng="-32.15478"></reverse-geocode>
+<reverse-geocode lat="-12.928615" lng="-38.509741"></reverse-geocode>
+```
+
+If the latitude and longitude variables are coming from scope variables set in a controller, you need to use curly-brace expression:
+```html
+<reverse-geocode lat="{{myCtrl.lat}}" lng="{{myCtrl.lng}}"></reverse-geocode>
 ```
