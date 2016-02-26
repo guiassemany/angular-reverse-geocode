@@ -1,11 +1,11 @@
 {
-  "name": "assemany-angular-reverse-geocode",
+  "name": "angular-reverse-geocode",
   "version": "1.0.0",
   "authors": [
     "Guilherme Assemany <guilhermeassemany@hotmail.com> (http://assemany.com)"
   ],
   "description": "AngularJS directive for google maps reverse GeoCode",
-  "main": "assemany-angular-reverse-geocode.js",
+  "main": "angular-reverse-geocode.js",
   "keywords": [
     "AngularJS",
     "Reverse Geocode",

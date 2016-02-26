@@ -1,18 +1,18 @@
-Assemany AngularJS Reverse Geocode
+AngularJS Reverse Geocode
 =======================
 This is a simple directive to handle reverse geocode using google maps.
 
 ### Demo
 [Codepen](http://codepen.io/assemany/pen/JXPqBv)
 
-### How to Installation
+### How to Install
 
-Bower: `bower install assemany-angular-reverse-geocode`
+Bower: `bower install angular-reverse-geocode`
 You can also simply download the file assemany-angular-reverse-geocode.js and import it to your page.
 
-After this, you should add 'AssemanyAngularReverseGeocode' as a dependency for your project.
+After this, you should add 'AngularReverseGeocode' as a dependency for your project.
 ```javascript
-angular.module('myApplication', ['AssemanyAngularReverseGeocode']);
+angular.module('myApplication', ['AngularReverseGeocode']);
 ```
 
 ** Important: You should also have the google maps api script on your page! **

@@ -1,10 +1,10 @@
 ﻿/**
- * Assemany AngularJS reverse geocoding directive
+ * AngularJS reverse geocoding directive
  * @author Guilherme Assemany <guilhermeassemany@hotmail.com> (http://assemany.com)
  * @version 1.0.0
  */
 (function () {
-    angular.module('AssemanyAngularReverseGeocode', [])
+    angular.module('AngularReverseGeocode', [])
     .directive('reverseGeocode', function () {
         return {
             restrict: 'E',
