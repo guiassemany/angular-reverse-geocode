@@ -1,6 +1,6 @@
 AngularJS Reverse Geocode
 =======================
-This is a simple directive to handle reverse geocode using google maps.
+This is a simple module to handle reverse geocode using google maps and AngularJS.
 
 ### Demo
 [Codepen](http://codepen.io/assemany/pen/JXPqBv)
