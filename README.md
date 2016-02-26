@@ -7,8 +7,8 @@ This is a simple directive to handle reverse geocode using google maps.
 
 ### How to Install
 
-Bower: `bower install angular-reverse-geocode`
-You can also simply download the file assemany-angular-reverse-geocode.js and import it to your page.
+Bower: `bower install assemany-angular-reverse-geocode`
+You can also simply download the file angular-reverse-geocode.js and import it to your page.
 
 After this, you should add 'AngularReverseGeocode' as a dependency for your project.
 ```javascript
