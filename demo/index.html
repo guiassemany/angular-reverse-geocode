@@ -1,0 +1,41 @@
+<html ng-app="myApp">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body ng-controller="MyCtrl as my">
+    <div class="container">
+    <div class="row">
+      <h3> Using the directive </h3>
+      <div class="col-md-4">
+        <h4>
+          Reverse Geocode from fixed lat and lng:
+           <reverse-geocode lat="-12.928615" lng="-38.509741"></reverse-geocode>
+        </h4>
+      </div>
+      <div class="col-md-4">
+        <h4>
+          Reverse Geocode scope variables from controller:
+           <reverse-geocode lat="{{my.lat}}" lng="{{my.lng}}"></reverse-geocode>
+        </h4>
+      </div>
+      <div class="col-md-4">
+        <h4>
+          <a href="https://github.com/guiassemany/angular-reverse-geocode">Github repo</a>
+        </h4>
+      </div>
+    </div>
+    <div class="row">
+      <h3> Using the service </h3>
+      <div class="col-md-12">
+        <h4> Full address from controller </h4>
+        {{my.formatted_address}}
+      </div>
+    </div>
+  </div>
+    <script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0/angular.min.js" charset="utf-8"></script>
+    <script src="./demo/app.js" charset="utf-8"></script>
+    <script src="./angular-reverse-geocode.js" charset="utf-8"></script>
+
+  </body>
+</html>
