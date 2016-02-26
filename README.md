@@ -15,7 +15,7 @@ After this, you should add 'AngularReverseGeocode' as a dependency for your proj
 angular.module('myApplication', ['AngularReverseGeocode']);
 ```
 
-** Important: You should also have the google maps api script on your page! **
+**Important: Remeber to include the angular-reverse-geocode.js or the minified version on your page.  You should also have the google maps api script on your page!**
 
 ### How to use
 The directive
