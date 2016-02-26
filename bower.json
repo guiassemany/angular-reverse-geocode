@@ -5,7 +5,7 @@
     "Guilherme Assemany <guilhermeassemany@hotmail.com> (http://assemany.com)"
   ],
   "description": "AngularJS directive for google maps reverse GeoCode",
-  "main": "angular-reverse-geocode.js",
+  "main": "dist/angular-reverse-geocode.min.js",
   "keywords": [
     "AngularJS",
     "Reverse Geocode",
