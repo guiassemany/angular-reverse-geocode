@@ -6,11 +6,18 @@ This is a simple module to handle reverse geocode using google maps and AngularJ
 [Codepen](http://codepen.io/assemany/pen/JXPqBv)
 
 ### How to Install
-
+NPM: `npm i angular-reverse-geocode-assemany`
 Bower: `bower install assemany-angular-reverse-geocode`
 You can also simply download the file angular-reverse-geocode.js and import it to your page.
 
-Include the main js file to your application
+## Include the main js file to your application
+Npm:
+```html
+<script src="node_modules/angular-reverse-geocode/dist/angular-reverse-geocode.min.js" charset="utf-8"></script>
+```
+
+
+Bower:
 ```html
 <script src="bower_components/angular-reverse-geocode/dist/angular-reverse-geocode.min.js" charset="utf-8"></script>
 ```
