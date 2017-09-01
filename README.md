@@ -22,6 +22,19 @@ Bower:
 <script src="bower_components/angular-reverse-geocode/dist/angular-reverse-geocode.min.js" charset="utf-8"></script>
 ```
 
+When using a module bundler (i.e webpack):
+
+```javascript
+const reverseGeocode = require('angular-reverse-geocode');
+
+angular.module('myApp', [reverseGeocode]);
+
+// or for ES2015+ users
+import reverseGeocode from 'angular-reverse-geocode';
+
+angular.module('myApp', [reverseGeocode]);
+```
+
 After this, you should add 'AngularReverseGeocode' as a dependency for your project.
 ```javascript
 angular.module('myApplication', ['AngularReverseGeocode']);
