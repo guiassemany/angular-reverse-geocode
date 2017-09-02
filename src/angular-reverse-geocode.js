@@ -4,7 +4,7 @@
  * @version 1.0.0
  */
 (function () {
-    angular.module('AngularReverseGeocode', [])
+    var moduleName = angular.module('AngularReverseGeocode', [])
     .service('reverseGeocode', ['$http', function($http){
 
       var vm = this;
@@ -47,5 +47,7 @@
             },
             replace: true
         };
-    });
+    }).name;
+
+    return moduleName;
 })();

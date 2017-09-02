@@ -2,7 +2,7 @@
   "name": "angular-reverse-geocode-assemany",
   "version": "1.0.1",
   "description": "Simple module to handle reverse geocode in AngularJS + Google Maps",
-  "main": "angular-reverse-geocode.min.js",
+  "main": "dist/angular-reverse-geocode.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/guiassemany/angular-reverse-geocode.git"
   },
-  "keywords": [
-    "angular",
-    "reverse",
-    "geocode",
-    "google",
-    "maps"
-  ],
+  "keywords": ["angular", "reverse", "geocode", "google", "maps"],
   "author": "Guilherme Assemany <guilhermeassemany@hotmail.com>",
   "license": "ISC",
   "bugs": {
